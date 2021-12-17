@@ -2305,7 +2305,7 @@ class MemberInfoRegisterComponent {
         let constraints = {
             audio: false,
             video: {
-                facingMode: { exact: "environment" },
+            // facingMode: { exact: "environment" },
             },
         };
         navigator.mediaDevices

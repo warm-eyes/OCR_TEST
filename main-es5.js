@@ -3852,10 +3852,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           var constraints = {
             audio: false,
-            video: {
-              facingMode: {
-                exact: "environment"
-              }
+            video: {// facingMode: { exact: "environment" },
             }
           };
           navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
