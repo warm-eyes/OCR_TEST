@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>香港醫思醫療集團 | 醫思健康會員资料</title>
+  <base href='/'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta property='og:title' content='醫思健康 | 會員登記表格'/>
+  <meta property='og:type' content='website' />
+  <meta property='description' content='預先確認會員資料並完成登記手續，有效節省您的登記輪候時間，盡享更快捷的服務體驗！' />
+  <meta property='og:description' 
+  content='預先登記或確認會員資料，助您加快登記手續，盡享更快捷的服務體驗！Pre-register now to save your waiting time and enjoy an express service!' />
+  <meta property='og:image' content='${PRE_REGISTRATION_WEB_ENDPOINT}/assets/img/logo/logo.png' />
+
+  <link rel='icon' type='image/png' sizes='144x144' href='${PRE_REGISTRATION_WEB_ENDPOINT}/favicon_144x144.png'>
+  
+  <link href='https://fonts.googleapis.com/css?family=Nunito&display=swap' rel='stylesheet'> 
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap' rel='stylesheet'> 
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap' rel='stylesheet'> 
+  <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+  
+  <script>
+    var APP_VERSION = '${APP_VERSION}';
+    var APP_ENV = '${APP_ENV}';
+    var GA_TRACKING_ID = '${GA_TRACKING_ID}';
+    var API_END_POINT = '${API_END_POINT}';
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src='https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}'></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    
+    window.onload=function () {
+      document.addEventListener('touchstart',function (event) {
+        if(event.touches.length>1){
+          event.preventDefault();
+        }
+      });
+      var lastTouchEnd=0;
+      document.addEventListener('touchend',function (event) {
+        var now=(new Date()).getTime();
+        if(now-lastTouchEnd<=300){
+          event.preventDefault();
+        }
+        lastTouchEnd=now;
+      },false);
+      document.addEventListener('gesturestart', function (event) {
+        event.preventDefault();
+      });
+    }
+  </script>
+
+</head>
+<body>
+  <app-root></app-root>
+<script src="runtime-es2015.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="module"></script><script src="styles-es2015.js" type="module"></script><script src="styles-es5.js" nomodule defer></script><script src="scripts.js" defer></script><script src="vendor-es2015.js" type="module"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="module"></script><script src="main-es5.js" nomodule defer></script></body>
+</html>

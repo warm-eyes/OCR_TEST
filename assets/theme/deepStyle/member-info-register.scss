@@ -1,0 +1,370 @@
+.wrapper-memberinfo-register {
+
+  user-select: none;
+  
+  @media screen and (min-width: 760px) {
+
+    .phoneNumber {
+      border-left-color:transparent !important;
+    }
+
+    .mat-form-field-flex,.mat-button {
+      border-radius: 8px !important;
+    }
+
+    .cdk-overlay-container .cdk-overlay-pane .matOptions{
+      top:42px !important;
+    }
+
+    .field-phone .mat-form-field-flex{
+      height:42px !important;
+    }
+
+    .mat-form-field-flex  {
+      height:42px !important;
+    }
+
+    .mat-radio-button{
+      height:42px !important;
+    }
+
+    .mat-radio-outer-circle{
+      height:42px !important;
+    }
+
+    .mat-form-field-infix {
+      transform: translateY(-5px) !important;
+    }
+
+    .mat-radio-button,.mat-radio-outer-circle{
+      width:334.08px !important;
+    }
+
+    .field-phone .mat-select-arrow-wrapper {
+      transform: translateX(-5px) !important;
+    }
+
+    .mat-radio-outer-circle{
+      border-radius: 8px !important;
+    }
+
+    .field-idcard-number {
+      input {
+        margin-top: 30px !important;
+      }
+      
+    }
+
+    .select-language{
+
+      .mat-select-value-text{
+        color:#0A2749 !important;
+        font-family: NotoSansTC-Regular !important;
+      }
+      
+    }
+
+    .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+      border: 1px solid #1893FF !important;
+    }
+
+    .mat-form-field-flex  {
+      border:1px #E9EDF3 solid !important;
+    }
+
+    .mat-radio-outer-circle{
+      border: 1px solid #E9EDF3 !important;
+    }
+    
+  }
+
+  .mat-select-value{
+    overflow: unset !important;
+  }
+
+
+
+  .phoneAreaCode .mat-form-field-flex{
+    border-right: none !important;
+  }
+
+  .mat-select-placeholder{
+    color: #0A2749;
+  }
+
+  .custom-frame{
+    .mat-checkbox-layout{
+      white-space: normal !important;
+    }
+
+    .mat-checkbox-inner-container{
+      margin-top: 4px;
+    }
+  }
+
+
+  .mat-select-arrow-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    transform: translateX(-10px);
+  }
+
+  .field-phone .mat-select-arrow-wrapper {
+    transform: translateX(-15px);
+  }
+
+
+  #clear {
+    position: absolute;
+    bottom: 16px;
+    right: 12px;
+    font-size: 26px;
+    color:rgb(30,30,30);
+  }
+
+  .mat-radio-button.mat-radio-checked {
+    outline:none;
+    border:none;
+    border-color:#1893FF;
+    border-radius: 8px;
+    .mat-radio-label-content {
+        color:#1893FF;
+    }
+}
+
+  
+  .field-phone .mat-form-field-flex{
+    height:48px;
+
+    
+
+    .mat-select{
+      transform: translateY(0.5px);
+    }
+  }
+
+  .mat-form-field-flex  {
+    height:48px;
+    border:1px #D9DEE8 solid;
+    border-radius: 5px;
+  }
+
+  
+
+  // tick .invalid .mat-form-field-flex{
+  //   border:none;
+  // }
+  
+  .field-borndate .invalid {
+    border: none;
+    box-shadow: none !important;
+  }
+
+  .phoneAreaCode .mat-form-field-flex {
+    border-right: none !important;
+    border-top-right-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+  }
+
+  .field-borndate .invalid .mat-form-field-flex {
+    // border: none;
+    border-color: red !important;
+    // box-shadow: 0 0 0 1px red !important;
+  }
+
+  input.invalid {
+    border-color: red !important;
+  }
+
+  .invalid{
+    border-radius: 5px;   
+    // box-shadow: 0 0 0 1px red !important;
+    // -webkit-box-shadow: 0 0 0 1px red !important;
+    .mat-checkbox-frame {
+      border-color: #F36A6A !important;
+    }
+  }
+
+  .mat-checkbox .invalid {
+    box-shadow: 0.3px -1px red inset !important;
+    transform: scale(1.05) translate(5px, -0px);
+  }
+
+  .field-phone .tip-invalid {
+    transform: translate(-4px, -10px) !important;
+  }
+
+  .mat-form-field-underline{
+    width: 0%;
+  }
+
+  .mat-select{
+    padding:0;
+    margin:0;
+  }
+
+  .mat-form-field-infix {
+    padding:0;
+    margin:0;
+    transform: translateY(-3px);
+    margin-left:10px;
+  }
+
+  .mat-form-field-wrapper{
+    margin-bottom: -9px;
+  }
+  
+  .mat-radio-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .mat-button{
+    border-radius: 5px;
+  }
+
+  .mat-radio-button{
+    position: relative;
+    height:48px;
+    width:154.65px;
+    font-family: NotoSansTC-Regular;
+    .mat-radio-label{
+      position: static;
+      color:#0A2749;
+      .mat-radio-label-content{
+        position: absolute;
+        padding:0;
+        margin: 0;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+
+      }
+    }
+  }
+  .mat-radio-outer-circle{
+    position: relative;
+    width:155px;
+    height:48px;
+    border-radius: 5px;
+    border: 1px solid #D9DEE8;
+  }
+
+  .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+    border: 1px solid #1893FF;
+  }
+
+  .mat-radio-label-content {
+    transform: translateX(-280%);
+  }
+
+  .mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple{
+    background-color: transparent;
+  }
+
+  .mat-radio-inner-circle{
+    width:100%;
+    height:100%;
+    border-radius: 0%;
+  }
+
+
+  .mat-checkbox-layout .mat-checkbox-label {
+    line-height: 16px;
+    padding-top: 3px
+  }
+
+
+  .mat-checkbox-ripple .mat-ripple-element,
+  .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+      background-color: #1893FF !important;
+  }
+
+  .mat-radio-ripple {
+    display: none;
+  }
+
+  .select-language{
+    .mat-select-value-text{
+      color:#0A2749 !important;
+      font-family: NotoSansTC-Regular !important;
+    }
+    
+    .mat-select-arrow-wrapper{
+      transform: translateY(1.3px) !important;
+    }
+
+    .mat-select-arrow{
+      width:16px;
+      height:16px;
+      border:none;
+      background-image:url('assets/icon/icon-enter.svg');
+      background-size:8px 8px;
+      transform: translate(0px, 4px);
+      color:#163252;
+    }
+  }
+
+  .field-idcard-number {
+    margin-top: -16px !important;
+  }
+
+  .mat-select-arrow{
+    width: 16px;
+    height: 16px;
+    border:none;
+    background-image: url('assets/icon/icon-enter.svg');
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    transform: translate(5px, 4px);
+    color:#163252;
+  }
+  
+  
+
+  .mat-select-placeholder{
+    font-family: NotoSansTC-Regular;
+  }
+
+  .phoneAreaCode.invalid .mat-form-field-flex {
+    border-color: red !important;
+  }
+
+  .phoneAreaCode .mat-form-field-flex {
+    border-right-color: transparent;
+  }
+
+
+  
+  
+
+    // .mat-select-value {
+    //   transform: translate(0px,5px);
+    //   .mat-select-arrow{
+    //     transform: translate(5px,9px);
+    //   }
+    // }
+
+
+}
+
+
+
+.cdk-overlay-container .cdk-overlay-pane .matOptions{
+  min-width: calc(100% + 10px) !important;
+  position: absolute;
+  top:48px;
+  left:6px;
+  //width:100%;
+  border-radius: 0%;
+}
+
+.cdk-overlay-container .cdk-overlay-pane .specialOptions{
+  min-width: calc(100% + 10px) !important;
+  position: absolute;
+  top:0px;
+  left:6px;
+  //width:100%;
+  border-radius: 0%;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-enter</title>
+    <g id="会员登记" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Y-Confirmation-" transform="translate(-694.000000, -126.000000)" stroke="#0A2749" stroke-width="2.85714286">
+            <g id="编组-10" transform="translate(556.000000, 120.000000)">
+                <g id="icon-enter" transform="translate(146.000000, 14.000000) rotate(90.000000) translate(-146.000000, -14.000000) translate(138.000000, 6.000000)">
+                    <polyline id="Path-2" transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) " points="10.8571429 2.28571429 5.14285714 8 10.8571429 13.7142857"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
