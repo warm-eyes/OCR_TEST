@@ -3818,10 +3818,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function openCapture() {
           var _this11 = this;
 
-          this.imageBase64 = ''; // this.video.nativeElement.setAttribute('autoplay', '');
-          // this.video.nativeElement.setAttribute('muted', '');
-          // this.video.nativeElement.setAttribute('playsinline', '');
-          // 旧版本浏览器可能根本不支持mediaDevices，我们首先设置一个空对象
+          this.imageBase64 = '';
+          this.video.nativeElement.setAttribute('autoplay', '');
+          this.video.nativeElement.setAttribute('muted', '');
+          this.video.nativeElement.setAttribute('playsinline', ''); // 旧版本浏览器可能根本不支持mediaDevices，我们首先设置一个空对象
 
           if (navigator.mediaDevices === undefined) {
             Object.defineProperty(navigator, 'mediaDevices', {
