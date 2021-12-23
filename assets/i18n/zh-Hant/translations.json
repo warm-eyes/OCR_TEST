@@ -156,14 +156,14 @@
     "HREF_CONSENT2": "https://echealthcare.com/zh/patients-charter"
   },
   "OCR": {
-    "OCR_BUTTON": "掃瞄身分證快速填寫資料",
+    "OCR_BUTTON": "掃瞄身份證快速填寫資料",
     "OCR_DESCRIBE": "請在框架內對準身份證",
     "OCR_HKID": "香港智能身份證",
     "OCR_CNID": "中國居民身份證",
     "OCR_EXPLAIN": "「點擊」一下框架，以拍攝身份證。如需要重新拍攝身份證，可在提交前，再次點擊框架。",
     "OCR_BACK": "返回",
     "OCR_SUBMIT": "提交",
-    "ERR_TENCET_OCR_UNABLE_READ_ID_CARD": "無法識別身份證, 請重新掃描。",
-    "ERR_TENCET_OCR_ID_CARD_TYPE_MISMATCH": "身份證類型不符, 請重新掃描。"
+    "ERR_TENCET_OCR_UNABLE_READ_ID_CARD": "無法識別身份證, 請重新掃瞄。",
+    "ERR_TENCET_OCR_ID_CARD_TYPE_MISMATCH": "身份證類型不符, 請重新掃瞄。"
   }
 }
