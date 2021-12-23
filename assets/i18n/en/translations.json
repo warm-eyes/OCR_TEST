@@ -163,6 +163,8 @@
     "OCR_CNID": "Mainland China Resident ID",
     "OCR_EXPLAIN": "\"Tap\" for the capturing your ID. Tapping the frame again for re-capturing pictures if needed before submission.",
     "OCR_BACK": "Back",
-    "OCR_SUBMIT": "Submit"
+    "OCR_SUBMIT": "Submit",
+    "ERR_TENCET_OCR_UNABLE_READ_ID_CARD": "Unable to read ID card, please scan again.",
+    "ERR_TENCET_OCR_ID_CARD_TYPE_MISMATCH": "ID card type mismatch, please scan again."
   }
 }

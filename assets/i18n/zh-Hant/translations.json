@@ -162,6 +162,8 @@
     "OCR_CNID": "中國居民身份證",
     "OCR_EXPLAIN": "「點擊」一下框架，以拍攝身份證。如需要重新拍攝身份證，可在提交前，再次點擊框架。",
     "OCR_BACK": "返回",
-    "OCR_SUBMIT": "提交"
+    "OCR_SUBMIT": "提交",
+    "ERR_TENCET_OCR_UNABLE_READ_ID_CARD": "無法識別身份證, 請重新掃描。",
+    "ERR_TENCET_OCR_ID_CARD_TYPE_MISMATCH": "身份證類型不符, 請重新掃描。"
   }
 }

@@ -3894,7 +3894,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var scanOcr = this.customerInformationService.scanOcr(cardRequest).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["catchError"])(function (error) {
             scanOcr.unsubscribe();
 
-            _this11.toastrService.error(_this11.translateService.instant("".concat(error.errors[0].errorMsg)));
+            _this11.toastrService.error(_this11.translateService.instant("OCR.".concat(error.errors[0].errorCode)));
 
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_8__["of"])(null);
           }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["finalize"])(function () {

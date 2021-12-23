@@ -2348,7 +2348,7 @@ class MemberInfoRegisterComponent {
         cardRequest.idCardType = this.idCardIndex == 0 ? 'HK' : 'CN';
         let scanOcr = this.customerInformationService.scanOcr(cardRequest).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["catchError"])((error) => {
             scanOcr.unsubscribe();
-            this.toastrService.error(this.translateService.instant(`${error.errors[0].errorMsg}`));
+            this.toastrService.error(this.translateService.instant(`OCR.${error.errors[0].errorCode}`));
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_8__["of"])(null);
         }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_7__["finalize"])(() => {
             this.closeOcr();
